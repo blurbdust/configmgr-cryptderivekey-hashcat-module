@@ -78,7 +78,7 @@ DECLSPEC void crypt_derive_key_password_derivation (sha1_hmac_ctx_t *ctx, const 
   sha1_final(&ctx->ipad);
 }
 
-KERNEL_FQ void m19850_mxx (KERN_ATTR_RULES())
+KERNEL_FQ KERNEL_FA void m19850_mxx (KERN_ATTR_RULES ())
 {
   /**
    * base
@@ -186,7 +186,7 @@ KERNEL_FQ void m19850_mxx (KERN_ATTR_RULES())
   }
 }
 
-KERNEL_FQ void m19850_sxx (KERN_ATTR_RULES())
+KERNEL_FQ KERNEL_FA void m19850_sxx (KERN_ATTR_RULES ())
 {
   /**
    * base
